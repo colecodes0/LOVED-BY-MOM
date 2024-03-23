@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h1 class = "header_text">Mommy, do you love me?</h1>
+            </div>
+            <div class = "gif_container">
+            <img src = "giphy (2).gif" alt = "Cute animated illustration">
+
+            </div>
+        <div class = "buttons">
+            <button class ="btn" id = "YesButton" onclick="nextpage()">Yes</button>
+            <button class ="btn" id = "NoButton" onclick="secondpage()">No</button>
+            <script>
+                function nextpage() {
+                    window.location.href ="yes.html";
+                }
+
+                function secondpage() {
+                    window.location.href ="no.html";
+                }
+            </script>
+        </div>
+        </div>
+    </body>
+</html>
